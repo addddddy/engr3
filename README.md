@@ -47,7 +47,7 @@ Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlyb
 
 ### Wiring
 We literally had no wiring. The neopixel is directly attached to the board, so all we had to do was plug in the board
-
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/041/507/original/microcontrollers_3505_iso_ORIG.jpg?1493842007">
 ### Reflection
 This was, at first, a confusing assignment. With no prior knowledge of any code of any sort, I was really confused. I spent the first two days just staring at the computer and doing nothing. Finally, I jumped right in. I spent about a whole day just googling up random commands before we got the wise advice to just find an example code. So that is exactly what we did. We used a random code from "the complete Adafruit Library". All that we had to do was press run.
 
