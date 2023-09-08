@@ -16,7 +16,6 @@ Assignment: Get an RGB LED to cycle through a bunch of colors, but prettily. It 
 ```python
 
 pixels = neopixel.NeoPixel(PIN, NUMPIXELS, brightness=BRIGHTNESS, auto_write=False)\
-
 def rainbow_cycle(wait):
     for color in range(255):
         for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
@@ -24,7 +23,6 @@ def rainbow_cycle(wait):
             pixels[pixel] = colorwheel(pixel_index & 255)
         pixels.show()
         time.sleep(wait)
-
 while True:
     rainbow_cycle(SPEED)
 ```
@@ -41,13 +39,14 @@ For making a GIF, I recommend [ezgif.com](https://www.ezgif.com) Remember you ca
 
 And here is how you should give image credit to someone if you use their work:
 
-Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlybrkr=8931d0bc)
 
 
 
 ### Wiring
 We literally had no wiring. The neopixel is directly attached to the board, so all we had to do was plug in the board
-<img src="https://cdn-learn.adafruit.com/assets/assets/000/041/507/original/microcontrollers_3505_iso_ORIG.jpg?1493842007">
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/041/507/original/microcontrollers_3505_iso_ORIG.jpg">
+Image credit goes to [Lady Ada](https://learn.adafruit.com/adafruit-metro-m0-express)
+
 ### Reflection
 This was, at first, a confusing assignment. With no prior knowledge of any code of any sort, I was really confused. I spent the first two days just staring at the computer and doing nothing. Finally, I jumped right in. I spent about a whole day just googling up random commands before we got the wise advice to just find an example code. So that is exactly what we did. We used a random code from "the complete Adafruit Library". All that we had to do was press run.
 
