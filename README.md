@@ -1,5 +1,5 @@
 # CircuitPython
-This repository will actually serve as an aid to help you get started with your own template.  You should copy the raw form of this readme into your own, and use this template to write your own.  If you want to draw inspiration from other classmates, feel free to check [this directory of all students!](https://github.com/chssigma/Class_Accounts).
+ [ directory of all students!](https://github.com/chssigma/Class_Accounts)
 ## Table of Contents
 * [Table of Contents](#TableOfContents)
 * [Hello_CircuitPython](#Hello_CircuitPython)
@@ -49,13 +49,8 @@ This was, at first, a confusing assignment. With no prior knowledge of any code 
 ## CircuitPython_Servo
 
 ### Description & Code Snippets
-Write a couple sentences here, describing this assignment, and make sure that you hit these two points:
-* What was the goal of the assignment?
-* How did you accomplish that goal?
-  How you accomplished the goal is NOT a reflection, it is you telling the reader how to do this assignment, in broad strokes.
-
-  Your description is the right place to draw the reader's attention to any important chunks of code. Here's how you make code look like code:
-
+For this assignment, we made a circuit that had a servo move. At first, the servo just swept back and forth, before we got it to move depending on which of two buttons we pressed. One button had it move 5 degrees right, the other 5 degrees left. To make this, we first started off with and example code obtained through a friend. We then found some example code for using buttons, and made the code need inputs to move the servo. 
+ 
 ```python
 Code goes here
 
