@@ -52,11 +52,24 @@ This was, at first, a confusing assignment. With no prior knowledge of any code 
 For this assignment, we made a circuit that had a servo move. At first, the servo just swept back and forth, before we got it to move depending on which of two buttons we pressed. One button had it move 5 degrees right, the other 5 degrees left. To make this, we first started off with and example code obtained through a friend. We then found some example code for using buttons, and made the code need inputs to move the servo. 
  
 ```python
-Code goes here
+while True:
+    if btn.value: # if button is pressed
+        print(angle)# for debugging
+        if angle < 180:
+            angle = angle +5 # continuously add five degrees everytime i press the button.
+            my_servo.angle =angle # make the servo go to that angle
+            time.sleep(0.02)
+    
+    if btn2.value:# if button is pressed
+        print(angle)# tell serial monitor what the angle is set to
+        if angle > 0:# so angle doesnt go out of range
+            angle = angle -5 # subtract 5 from angle every time i press button
+            my_servo.angle = angle # tell servo to go to thaty angle.
+            time.sleep(0.02)
 
 ```
 
-**Lastly, please end this section with a link to your code or file.**  
+[link to full code](https://github.com/addddddy/engr3/blob/main/buttonservo.cpp)
 
 
 ### Evidence
@@ -64,12 +77,11 @@ Code goes here
 ![ezgif com-optimize](https://github.com/addddddy/engr3/assets/143544940/561c9908-fda6-4a8d-a112-b2ad3f70374c)
 
 ### Wiring
-[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
-For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
-Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+![image](https://github.com/addddddy/engr3/assets/143544940/da8131b8-15df-4c77-98ea-45a548e7e9d1)
+
 
 ### Reflection
-Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
+This project was challenging because I neither had any motivation nor knowledge of how to begin. So after procrastinating for way too long, I asked a friend for the code that she had built upon, so that I did not have to search the web myself. I then took this code, which just had a servo "sweeping" between 0-180 continuously, and meticulously added code line by line that imported the right things for button(s) to be added. I then found another code that just sent a message to the serial monitor when a button is pressed and used this code (an if loop( if button is pressed)) and swapped out the message to the serial monitor for a command to move the servo right 5 degrees. I then duplicated this and configured it for the other button to move LEFT when pressed.
 
 
 ## CircuitPython_LCD
