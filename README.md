@@ -82,8 +82,38 @@ This project was challenging because I neither had any motivation nor knowledge 
 ### Description & Code Snippets
 Our project reads a distance sensor and shines a specific color when it is between two ranges/distances from an object. It uses an ultrasonic distance sensor to see how far away an object is. It then outputs the color red for distances less than 5cm, blue for distances 6-20, and green for distances 20+. We started by getting the sensor to read the values to the serial monitor. We then had the corresponding colors actually show through the LCD neopixel attached to the board. Then we worked on getting the colors to smoothly "flow" together. To do this, we have the code increase slowly, instead of jumping from red to blue to green.
 ```python
-Code goes here
-
+cm = 0
+pixel = neopixel.NeoPixel(PIN, NUMPIXELS, brightness=0.2, auto_write=False)
+while True:
+    try:
+        cm = sonar.distance  
+        if cm >= 0 and cm <=20:
+            red = simpleio.map_range(cm, 5, 20, 255, 0)
+            blue = simpleio.map_range(cm, 5, 20, 0, 255)
+            green = 0
+            print(cm)
+            pixel.fill((red, green, blue)) 
+            pixel.show()      
+            time.sleep(0.1)
+        elif cm >= 20 and cm <=35: 
+            red = 0
+            blue = simpleio.map_range(cm, 20, 35, 255, 0)
+            green = simpleio.map_range(cm, 20, 35, 0, 255)
+            print(cm)
+            pixel.fill((red, green, blue))
+            pixel.show()
+            time.sleep(0.1)
+        elif cm > 35 and cm < 120:
+            green = 255
+            pixel.fill(green)
+            red = 0
+            blue = 0
+            pixel.show
+            print (cm)
+            time.sleep(0.1)
+    except:
+        print("i crashed")
+        time.sleep(0.1)
 ```
 
 **Lastly, please end this section with a link to your code or file.**  
@@ -95,12 +125,10 @@ https://github.com/addddddy/engr3/assets/143544940/452524df-8441-4da1-8679-6953b
 
 
 ### Wiring
-[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
-For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
-Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
-### Reflection
-Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
+![image](https://github.com/addddddy/engr3/assets/143544940/e2456ffe-1a46-4666-a9ad-35ed0d668b1a)
 
+### Reflection
+This project started really well, then quickly went downhill. We were able to efficiently find values from a distance sensor, 
 ## CircuitPython_LCD
 
 ### Description & Code Snippets
@@ -155,7 +183,6 @@ Code goes here
 ### Evidence
 
 ### Wiring
-![image](https://github.com/addddddy/engr3/assets/143544940/e2456ffe-1a46-4666-a9ad-35ed0d668b1a)
 
 ### Reflection
 
