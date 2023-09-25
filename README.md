@@ -82,36 +82,52 @@ This project was challenging because I neither had any motivation nor knowledge 
 ### Description & Code Snippets
 Our project reads a distance sensor and shines a specific color when it is between two ranges/distances from an object. It uses an ultrasonic distance sensor to see how far away an object is. It then outputs the color red for distances less than 5cm, blue for distances 6-20, and green for distances 20+. We started by getting the sensor to read the values to the serial monitor. We then had the corresponding colors actually show through the LCD neopixel attached to the board. Then we worked on getting the colors to smoothly "flow" together. To do this, we have the code increase slowly, instead of jumping from red to blue to green.
 ```python
+import time
+import board
+import adafruit_hcsr04
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D8, echo_pin=board.D7)
+import neopixel
+from rainbowio import colorwheel
+import simpleio
+
+NUMPIXELS = 1#using the neopixel
+SPEED = 0.05
+BRIGHTNESS = 0.1#the brightness of the pixel
+PIN = board.NEOPIXEL
+red=0
+blue=0
+green=0
+
 cm = 0
 pixel = neopixel.NeoPixel(PIN, NUMPIXELS, brightness=0.2, auto_write=False)
 while True:
-    try:
+    try: #try this code
         cm = sonar.distance  
-        if cm >= 0 and cm <=20:
-            red = simpleio.map_range(cm, 5, 20, 255, 0)
-            blue = simpleio.map_range(cm, 5, 20, 0, 255)
-            green = 0
+        if cm >= 0 and cm <=20:#between the values of 0 and 20 cm
+            red = simpleio.map_range(cm, 5, 20, 255, 0)#slowly shift the red values from full(255) to 0
+            blue = simpleio.map_range(cm, 5, 20, 0, 255)#start blue at zero and increase the blueness of the pixel untill 255 at 20cm
+            green = 0#not doing anything yet
             print(cm)
-            pixel.fill((red, green, blue)) 
+            pixel.fill((red, green, blue)) #fill the pixel in with RGB
             pixel.show()      
             time.sleep(0.1)
-        elif cm >= 20 and cm <=35: 
-            red = 0
-            blue = simpleio.map_range(cm, 20, 35, 255, 0)
-            green = simpleio.map_range(cm, 20, 35, 0, 255)
+        elif cm >= 20 and cm <=35: #same thing with the last if statement except its with 20 to 35 cm
+            red = 0#not in the range of colors
+            blue = simpleio.map_range(cm, 20, 35, 255, 0)#blue starts at full at 20 cm and slowly moves to zero at 35cm
+            green = simpleio.map_range(cm, 20, 35, 0, 255)#green starts at zero and the pixel will turn to full green(255) at 35cm
             print(cm)
             pixel.fill((red, green, blue))
             pixel.show()
             time.sleep(0.1)
-        elif cm > 35 and cm < 120:
+        elif cm > 35 and cm < 120: #when the distance sensor reads 35 to 120
             green = 255
-            pixel.fill(green)
+            pixel.fill(green) #make the pixel green
             red = 0
             blue = 0
             pixel.show
             print (cm)
             time.sleep(0.1)
-    except:
+    except:# if none of this code applies/works print this statement instead of stopping completely
         print("i crashed")
         time.sleep(0.1)
 ```
