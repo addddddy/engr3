@@ -132,8 +132,7 @@ while True:
         time.sleep(0.1)
 ```
 
-**Lastly, please end this section with a link to your code or file.**  
-
+{link to code}(https://github.com/lwylie10/engr3/blob/main/ultrasensorrange.py)
 ### Evidence
 
 
@@ -144,24 +143,20 @@ https://github.com/addddddy/engr3/assets/143544940/452524df-8441-4da1-8679-6953b
 ![image](https://github.com/addddddy/engr3/assets/143544940/e2456ffe-1a46-4666-a9ad-35ed0d668b1a)
 
 ### Reflection
-This project started really well, then quickly went downhill. We were able to efficiently find values from a distance sensor, 
-## CircuitPython_LCD
+The assignment took me a week because at first, I spent a really long time trying to figure out my buggy board issues but once I figured out what the problem was, I could work on my code. I first did the simple part which was making an if statement to change the color of the neopixel based on the values that the distance sensor was printing out. then I had to add the library. once I looked up the commands and all of the code it was easy to paste in the rest of the code to make it work. it was fun to watch the colors change.
+
+## motor control
 
 ### Description & Code Snippets
-Write a couple sentences here, describing this assignment, and make sure that you hit these two points:
-* What was the goal of the assignment?
-* How did you accomplish that goal?
-  How you accomplished the goal is NOT a reflection, it is you telling the reader how to do this assignment, in broad strokes.
-
-  Your description is the right place to draw the reader's attention to any important chunks of code. Here's how you make code look like code:
 
 ```python
-Code goes here
-
+spinny = pwmio.PWMOut(board.D6, duty_cycle=65535,frequency = 5000 )# wire in pin 5
+speed = analogio.AnalogIn(board.A1)
+while True:
+    sdfg = speed.value
+    spinny.duty_cycle = sdfg
 ```
-
-**Lastly, please end this section with a link to your code or file.**  
-
+https://github.com/addddddy/engr3/blob/main/asdfgh.py
 ### Evidence
 Pictures / Gifs of your finished work should go here.  You need to communicate what your thing does.
 For making a GIF, I recommend [ezgif.com](https://www.ezgif.com) Remember you can insert pictures using Markdown or HTML to insert an image.
