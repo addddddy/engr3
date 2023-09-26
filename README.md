@@ -4,9 +4,8 @@
 * [Table of Contents](#TableOfContents)
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
-* [distance sensor](#Distance Sensor)
-* [motor control](#motor control)
-* [
+* [distance sensor](#DistanceSensor)
+* [motor control](#MotorControl)
 ---
 ## Hello_CircuitPython
 ### Description & Code Snippets
@@ -59,7 +58,7 @@ while True:
 ![image](https://github.com/addddddy/engr3/assets/143544940/da8131b8-15df-4c77-98ea-45a548e7e9d1)
 ### Reflection
 This project was challenging because I neither had any motivation nor knowledge of how to begin. So after procrastinating for way too long, I asked a friend for the code that she had built upon, so that I did not have to search the web myself. I then took this code, which just had a servo "sweeping" between 0-180 continuously, and meticulously added code line by line that imported the right things for button(s) to be added. I then found another code that just sent a message to the serial monitor when a button is pressed and used this code (an if loop( if button is pressed)) and swapped out the message to the serial monitor for a command to move the servo right 5 degrees. I then duplicated this and configured it for the other button to move LEFT when pressed.
-## Distance_Sensor
+## Distance Sensor
 ### Description & Code Snippets
 Our project reads a distance sensor and shines a specific color when it is between two ranges/distances from an object. It uses an ultrasonic distance sensor to see how far away an object is. It then outputs the color red for distances less than 5cm, blue for distances 6-20, and green for distances 20+. We started by getting the sensor to read the values to the serial monitor. We then had the corresponding colors actually show through the LCD neopixel attached to the board. Then we worked on getting the colors to smoothly "flow" together. To do this, we have the code increase slowly, instead of jumping from red to blue to green.
 ```python
@@ -117,7 +116,7 @@ https://github.com/addddddy/engr3/assets/143544940/452524df-8441-4da1-8679-6953b
 ![image](https://github.com/addddddy/engr3/assets/143544940/e2456ffe-1a46-4666-a9ad-35ed0d668b1a)
 ### Reflection
 The assignment took me a week because at first, I spent a really long time trying to figure out my buggy board issues but once I figured out what the problem was, I could work on my code. I first did the simple part which was making an if statement to change the color of the neopixel based on the values that the distance sensor was printing out. then I had to add the library. once I looked up the commands and all of the code it was easy to paste in the rest of the code to make it work. it was fun to watch the colors change.
-## motor control
+## Motor Control
 ### Description & Code Snippets
 I have to wire up a 6v battery pack to a circuit with a motor and then write the code to make the motor speed up and slow down, based on input from a potentiometer.
 ```python
