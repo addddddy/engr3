@@ -167,7 +167,22 @@ while True:
 ### Wiring
 
 ### Reflection
-this assignment was challenging because neither I nor my partner could agree on how to start the code. We both wanted to do different  things, but we  started with how he wanted because I'm a girl and my opinion doesn't  matter. After  searching for usable code, we found  some that looked promising. However, when we tried to get it running, it didn't want to work at all. We ended up taking bits of code off of a friend, then modifying and adding things till it worked. In the end, it  looked almost exactly like how I had originally wanted to write the code. No surprise, it's because I'm always right
+this assignment was challenging because neither I nor my partner could agree on how to start the code. We both wanted to do different  things, but we  started with how he wanted because I'm a girl and my opinion doesn't  matter. After  searching for usable code, we found  some that looked promising. However, when we tried to get it running, it didn't want to work at all. We ended up taking bits of code off of a friend, then modifying and adding things till it worked. In the end, it  looked almost exactly like how I had originally wanted to write the code. No surprise, it's because I'm always right. 
+## The_Hanger
+### Description & Code Snippets
+To use drawings provided to replicate a part in CAD
+### Evidence
+
+### Reflection
+
+## The_Swing_Arm
+### Description & Code Snippets
+To use drawings provided to make a complicated part in CAD
+### Evidence
+
+### Reflection
+
+
 ## NextAssignment
 ### Description & Code Snippets
 Write a couple sentences here, describing this assignment, and make sure that you hit these two points:
