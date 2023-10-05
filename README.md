@@ -6,6 +6,9 @@
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [Distance Sensor](#Distance_Sensor)
 * [Motor Control](#Motor_Control)
+* [Photointerrupter](#Photointerrupter)
+* [Hanger](#The_Hanger)
+* [Swing Arm](#The_Swing_Arm)
 ---
 ## Hello_CircuitPython
 ### Description & Code Snippets
