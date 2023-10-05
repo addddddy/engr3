@@ -172,16 +172,18 @@ this assignment was challenging because neither I nor my partner could agree on 
 ### Description & Code Snippets
 To use drawings provided to replicate a part in CAD
 ### Evidence
+![Part Studio 1](https://github.com/addddddy/engr3/assets/143544940/2b4173b7-d577-46e3-90f8-556383dbde31)
 
 ### Reflection
-
+this assignment was a great intro back into CAD. I got to have some time to figure out the basics again, and just test out my old skills. It wasn't difficult, or very time-consuming at all. 
 ## The_Swing_Arm
 ### Description & Code Snippets
 To use drawings provided to make a complicated part in CAD
 ### Evidence
-
+![swing arm (1)](https://github.com/addddddy/engr3/assets/143544940/d23c10dd-3623-4775-b507-022afb24cd3e)
+![swing arm](https://github.com/addddddy/engr3/assets/143544940/075fff0f-3568-41c8-a96d-9eed425eafee)
 ### Reflection
-
+This assignment was very useful and fun. I dusted off some skills I haven't used in forever and got a good little reintroduction to variables. I also learned about and how to use the Tangent tool, along with some other minor tools.
 
 ## NextAssignment
 ### Description & Code Snippets
