@@ -167,8 +167,7 @@ while True:
 ### Wiring
 
 ### Reflection
-
-Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
+this assignment was challenging because neither I nor my partner could agree on how to start the code. We both wanted to do different  things, but we  started with how he wanted because I'm a girl and my opinion doesn't  matter. After  searching for usable code, we found  some that looked promising. However, when we tried to get it running, it didn't want to work at all. We ended up taking bits of code off of a friend, then modifying and adding things till it worked. In the end, it  looked almost exactly like how I had originally wanted to write the code. No surprise, it's because I'm always right
 ## NextAssignment
 ### Description & Code Snippets
 Write a couple sentences here, describing this assignment, and make sure that you hit these two points:
