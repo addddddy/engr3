@@ -11,6 +11,7 @@
 * [Swing Arm](#The_Swing_Arm)
 * [Table of Contents](#Back_To_Table_Of_Contents)
 ---
+
 ## Hello_CircuitPython
 ### Description & Code Snippets
 Assignment: Get an RGB LED to cycle through a bunch of colors, but prettily. It should gradually shift colors, cycling through the entire rainbow. We ended up using an example neopixel code from "the complete Adafruit Library" and loading that after changing a few things, such as how fast it goes through the cycle.
@@ -210,5 +211,7 @@ Code goes here
 ### Reflection
 
 Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
-# 🤡
-## Back_To_Table_Of_Contents
+
+# ❤ Thx for reading!
+* [Table of Contents](#Back_To_Table_Of_Contents)
+---
