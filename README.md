@@ -208,4 +208,5 @@ Don't just tell the reader what went wrong or was challenging!  Describe how you
 
 # ❤ Thx for reading!
 * [Back To Table of Contents](##TableofContents)
+* [Table of Contents](#TableOfContents)
 ---
