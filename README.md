@@ -192,16 +192,10 @@ This assignment was very useful and fun. I dusted off some skills I haven't used
 
 ## NextAssignment
 ### Description & Code Snippets
-Write a couple sentences here, describing this assignment, and make sure that you hit these two points:
-* What was the goal of the assignment?
-* How did you accomplish that goal?
-  How you accomplished the goal is NOT a reflection, it is you telling the reader how to do this assignment, in broad strokes.
-  Your description is the right place to draw the reader's attention to any important chunks of code. Here's how you make code look like code:
+
 ```python
 Code goes here
-
 ```
-
 **Lastly, please end this section with a link to your code or file.**  
 
 ### Evidence
@@ -213,5 +207,5 @@ Code goes here
 Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
 
 # ❤ Thx for reading!
-* [Back To Table of Contents](#Table_of_Contents)
+* [Back To Table of Contents](##Table_of_Contents)
 ---
