@@ -9,7 +9,7 @@
 * [Photointerrupter](#Photointerrupter)
 * [Hanger](#The_Hanger)
 * [Swing Arm](#The_Swing_Arm)
-* [Table of Contents](#Back_To_Table_Of_Contents)
+  
 ---
 
 ## Hello_CircuitPython
