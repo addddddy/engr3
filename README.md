@@ -210,5 +210,3 @@ Don't just tell the reader what went wrong or was challenging!  Describe how you
 
 # ❤ Thx for reading!
 * [Back To Table of Contents](#Table_of_Contents)
-* [Table of Contents](#TableOfContents)
----
