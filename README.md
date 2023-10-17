@@ -174,6 +174,7 @@ while True:
 ### Reflection
 this assignment was challenging because neither I nor my partner could agree on how to start the code. We both wanted to do different  things, but we  started with how he wanted because I'm a girl and my opinion doesn't  matter. After  searching for usable code, we found  some that looked promising. However, when we tried to get it running, it didn't want to work at all. We ended up taking bits of code off of a friend, then modifying and adding things till it worked. In the end, it  looked almost exactly like how I had originally wanted to write the code. No surprise, it's because I'm always right. 
 ## The_Hanger
+[link to project](https://cvilleschools.onshape.com/documents/61f1aed0d78915e678d46910/w/792ab1a12e13a85070412122/e/6652e67fcdeaa1051e02a925?renderMode=0&uiState=652ee01a7839ae11875abe2c)
 ### Description & Code Snippets
 To use drawings provided to replicate a part in CAD
 ### Evidence
@@ -182,6 +183,7 @@ To use drawings provided to replicate a part in CAD
 ### Reflection
 this assignment was a great intro back into CAD. I got to have some time to figure out the basics again, and just test out my old skills. It wasn't difficult, or very time-consuming at all. 
 ## The_Swing_Arm
+[link to project](https://cvilleschools.onshape.com/documents/581bd08b0809b0599f70bf9f/w/1ec621f461fa4f583eb479d7/e/eceb6eb1d0d13bc219b109b7?renderMode=0&uiState=652edfba7839ae11875aba1b)
 ### Description & Code Snippets
 To use drawings provided to make a complicated part in CAD
 ### Evidence
