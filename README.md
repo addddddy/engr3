@@ -191,7 +191,24 @@ To use drawings provided to make a complicated part in CAD
 ![swing arm](https://github.com/addddddy/engr3/assets/143544940/075fff0f-3568-41c8-a96d-9eed425eafee)
 ### Reflection
 This assignment was very useful and fun. I dusted off some skills I haven't used in forever and got a good little reintroduction to variables. I also learned about and how to use the Tangent tool, along with some other minor tools.
- <! --- 
+## Multiple_Part_Design1
+### Description & Code Snippets
+this is multiple parts all in relation to each other created in a singular part studio. It was designed using blueprint-like instructions. A few variables were then changed a few times, and after every time the mass of all of the parts was measured to see if it changed to what it should be.
+[link to project](https://cvilleschools.onshape.com/documents/52003501145aac5a3a53b0fc/w/2f1f654910214b88d26bb7d3/e/4f5a3c390c5af4dc444719bf?renderMode=0&uiState=6553d9d8c0fddc19367c8624)
+### Evidence
+![Part Studio 1 (3)](https://github.com/addddddy/engr3/assets/143544940/7df772d7-2b4d-4440-b973-aca56e8e522b)
+![Part Studio 1 (4)](https://github.com/addddddy/engr3/assets/143544940/13834b8c-1738-4378-b957-aaabd829033b)
+### Reflection
+This challenge was very difficult because when I was making the original version, I made all of my parts build off of each other in complicated ways. This made things go awry when I changed a few variables and ended up making me take much longer than I would have liked to have had to spend on this one assignment. This definitely tested my patience quite a bit.
+## Single_Part_Practice
+### Description & Code Snippets
+This was an easy, quick assignment. Like the aforementioned one, I build something in Onshape using specified documents that tell me exactly what it has to look like. I ended up with a single small part which I also had to reconfigure parts of a few times.
+[link to project](https://cvilleschools.onshape.com/documents/4a13ea3c71c1399fc6f25764/w/f755b6b329c66c25ea7dca5a/e/ae0408f16e0686f8d3d97a94?renderMode=0&uiState=6553dc300f4f635af2b92510)
+### Evidence
+
+### Wiring
+
+### Reflection
 ## NextAssignment
 ### Description & Code Snippets
 
@@ -205,7 +222,18 @@ Code goes here
 ### Wiring
 
 ### Reflection
+```
+## NextAssignment
+### Description & Code Snippets
 
-  --- !> 
+
+**Lastly, please end this section with a link to your code or file.**  
+
+### Evidence
+
+### Wiring
+
+### Reflection
+```
 # ❤ Thx for reading!
 * [Back To Table of Contents](#Table_of_Contents)
