@@ -105,7 +105,7 @@ https://github.com/addddddy/engr3/assets/143544940/452524df-8441-4da1-8679-6953b
 ### Wiring
 ![image](https://github.com/addddddy/engr3/assets/143544940/e2456ffe-1a46-4666-a9ad-35ed0d668b1a)
 ### Reflection
-The assignment took me a week because at first, I spent a really long time trying to figure out my buggy board issues but once I figured out what the problem was, I could work on my code. I first did the simple part which was making an if statement to change the color of the neopixel based on the values that the distance sensor was printing out. then I had to add the library. once I looked up the commands and all of the code it was easy to paste in the rest of the code to make it work. it was fun to watch the colors change.
+The assignment took me much longer than anticipated because at first, we thought the issues had to do with the code, but they ended up having to do with the board we were using. After troubleshooting and realizing that, we switched out the board and continued on the project. In the end, it worked beautifully and looked absolutely amazing.
 ---
 ## Motor_Control
 ### Description & Code Snippets
@@ -198,8 +198,8 @@ This assignment was much easier than the one before but also turned difficult wh
 ---
 ## Alignment_Plate
 ### Description & Code Snippets
+This assignment was made on Onshape, and using Onshape CAD Challenges. It was amazingly easy, and I got it done within 5 minutes. 
 
-**Lastly, please end this section with a link to your code or file.**  
 
 ### Evidence
 
