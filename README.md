@@ -199,16 +199,15 @@ This assignment was much easier than the one before but also turned difficult wh
 ## Alignment_Plate
 ### Description & Code Snippets
 This assignment was made on Onshape, and using Onshape CAD Challenges. It was amazingly easy, and I got it done within 5 minutes. 
-
-
+[link to the project](https://cvilleschools.onshape.com/documents/7465062841010f9d54456ab9/w/1469bdf9bf555656d2cd1c09/e/510e06feb3d40a98bf331406?renderMode=0&uiState=65567ee20a56fb16df4ac3c0)
 ### Evidence
-
+![Part Studio 2](https://github.com/addddddy/engr3/assets/143544940/9283a92c-2449-4f5d-80e4-a2f81e3e6a79)
 ### Reflection
-
+This assignment was very quick, but humbled me when I forgot to submit my results to the app, and came in the next day to have to attempt to find a way to copy the entire part into a new part studio, which I never figured how to do.
 ---
 ## Multiple_Part_Practice2
 ### Description & Code Snippets
-
+This project was started with an initial part that we based the rest of the parts off of. 
 **Lastly, please end this section with a link to your code or file.**  
 
 ### Evidence
