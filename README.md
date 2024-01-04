@@ -9,7 +9,8 @@
 * [Photointerrupter](#Photointerrupter)
 * [Hanger](#The_Hanger)
 * [Swing Arm](#The_Swing_Arm)
-* 
+* [Multi-Part Cylinder](Multiple_Part_Cylinder)
+* [Single Part Practice](Single_Part_Practice)
   
 ---
 ## Hello_CircuitPython
@@ -203,7 +204,7 @@ This assignment was made on Onshape, and using Onshape CAD Challenges. It was am
 ### Evidence
 ![Part Studio 2](https://github.com/addddddy/engr3/assets/143544940/9283a92c-2449-4f5d-80e4-a2f81e3e6a79)
 ### Reflection
-This assignment was very quick, but humbled me when I forgot to submit my results to the app, and came in the next day to have to attempt to find a way to copy the entire part into a new part studio, which I never figured how to do. I ended up redoing the entire thing. 
+This assignment was very quick and easy but humbled me when I forgot to submit my results to the app and came in the next day to have to attempt to find a way to copy the entire part into a new part studio, which I never figured how to do. I ended up redoing the entire thing. 
 ---
 ## Multiple_Part_Practice
 ### Description & Code Snippets
@@ -214,7 +215,7 @@ This project started with an initial part which we based the rest of the parts o
 ![Assembly 1 (1)](https://github.com/addddddy/engr3/assets/143544940/9340e36e-ab86-4a82-90e0-8888b884ba91)
 ![Assembly 1 (3)](https://github.com/addddddy/engr3/assets/143544940/1abdc0bc-6358-4500-a80c-ac20c83441a0)
 ### Reflection
-
+This assignment truly tested my patience, as small mistakes were hard to find in a project with so many small details that could go wrong. I ended up spending way too much time searching for the things that were making me end up with the wrong mass because of careless mistakes. Pay attention to small details when replicating this.
 ---
 ## Assembly_Practice
 ### Description & Code Snippets
@@ -226,7 +227,7 @@ in this project, we were supplied with parts premade in CAD. We then added the p
 ![Assembly 1 (5)](https://github.com/addddddy/engr3/assets/143544940/8266d7c9-5e70-430d-be39-6ffc33bb7271)
 ![Assembly 1 (6)](https://github.com/addddddy/engr3/assets/143544940/27c82558-438e-4c59-a6da-8a8cd0f833a4)
 ### Reflection
-
+In this assignment, I learned many new ways to make my CAD more efficient, such as the drop-down menu in a mate's details to change the type of mate super easily. This ended up being super useful in the actual Onshape certification. 
 ```
 
 ## NextAssignment
