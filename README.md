@@ -9,6 +9,7 @@
 * [Photointerrupter](#Photointerrupter)
 * [Hanger](#The_Hanger)
 * [Swing Arm](#The_Swing_Arm)
+* 
   
 ---
 ## Hello_CircuitPython
@@ -132,7 +133,6 @@ Write a couple sentences here, describing this assignment, and make sure that yo
 * How did you accomplish that goal?
   How you accomplished the goal is NOT a reflection, it is you telling the reader how to do this assignment, in broad strokes.
   Your description is the right place to draw the reader's attention to any important chunks of code. Here's how you make code look like code:
-
 ```python
 import time
 import board, digitalio
@@ -176,7 +176,7 @@ To use drawings provided to make a complicated part in CAD
 ### Reflection
 This assignment was very useful and fun. I dusted off some skills I haven't used in forever and got a good little reintroduction to variables. I also learned about and how to use the Tangent tool, along with some other minor tools.
 ---
-## Multiple_Part_Design1
+## Multiple_Part_Cylinder
 ### Description & Code Snippets
 this is multiple parts all in relation to each other created in a singular part studio. It was designed using blueprint-like instructions. A few variables were then changed a few times, and after every time the mass of all of the parts was measured to see if it changed to what it should be.
 [link to project](https://cvilleschools.onshape.com/documents/52003501145aac5a3a53b0fc/w/2f1f654910214b88d26bb7d3/e/4f5a3c390c5af4dc444719bf?renderMode=0&uiState=6553d9d8c0fddc19367c8624)
@@ -203,19 +203,32 @@ This assignment was made on Onshape, and using Onshape CAD Challenges. It was am
 ### Evidence
 ![Part Studio 2](https://github.com/addddddy/engr3/assets/143544940/9283a92c-2449-4f5d-80e4-a2f81e3e6a79)
 ### Reflection
-This assignment was very quick, but humbled me when I forgot to submit my results to the app, and came in the next day to have to attempt to find a way to copy the entire part into a new part studio, which I never figured how to do.
+This assignment was very quick, but humbled me when I forgot to submit my results to the app, and came in the next day to have to attempt to find a way to copy the entire part into a new part studio, which I never figured how to do. I ended up redoing the entire thing. 
 ---
-## Multiple_Part_Practice2
+## Multiple_Part_Practice
 ### Description & Code Snippets
-This project was started with an initial part that we based the rest of the parts off of. 
-**Lastly, please end this section with a link to your code or file.**  
-
+This project started with an initial part which we based the rest of the parts on. We built the rest of the compatible parts in Onshape to make a microphone stand.
+[link to project](https://cvilleschools.onshape.com/documents/5777477289d34ef486a187f7/w/5624df1cd1e10e5b691da9a5/e/85571f88a5cd0eccb99aea53?renderMode=0&uiState=659715abbf1c01104e9ed951)
 ### Evidence
-
-### Wiring
-
+![Assembly 1](https://github.com/addddddy/engr3/assets/143544940/1e86c018-a18c-4e25-a425-6caa982e69a6)
+![Assembly 1 (1)](https://github.com/addddddy/engr3/assets/143544940/9340e36e-ab86-4a82-90e0-8888b884ba91)
+![Assembly 1 (3)](https://github.com/addddddy/engr3/assets/143544940/1abdc0bc-6358-4500-a80c-ac20c83441a0)
 ### Reflection
+
+---
+## Assembly_Practice
+### Description & Code Snippets
+in this project, we were supplied with parts premade in CAD. We then added the parts to an assembly and used the different features in the assembly to make our part work in CAD similarly to how it would work in real life.
+
+[link to project](https://cvilleschools.onshape.com/documents/fcc47099f4f4eb0777a0b071/w/260b7c2c61c81cc7944b8182/e/52d1676b4dc50812c4acfa5d?renderMode=0&uiState=659716d177d51a2fbbc732fb)
+### Evidence
+![Assembly 1 (4)](https://github.com/addddddy/engr3/assets/143544940/cad0bc44-7cd0-4533-a5b1-6006e2f31016)
+![Assembly 1 (5)](https://github.com/addddddy/engr3/assets/143544940/8266d7c9-5e70-430d-be39-6ffc33bb7271)
+![Assembly 1 (6)](https://github.com/addddddy/engr3/assets/143544940/27c82558-438e-4c59-a6da-8a8cd0f833a4)
+### Reflection
+
 ```
+
 ## NextAssignment
 ### Description & Code Snippets
 
