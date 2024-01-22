@@ -1,0 +1,49 @@
+import rotaryio
+import board
+import neopixel
+import digitalio
+from lcd.lcd import LCD
+from lcd. i2c_pcf8574_interface import I2CPCF8574Interface
+
+
+enc = rotaryio.IncrementalEncoder(board.D4, board.D3, divisor = 2)
+#lcd = LCD(I2CPCF8574Interface(board.I2C(), ), num_rows=2,num_cols=16)
+led = neopixel.NeoPixel(board.NEOPIXEL,1)
+led.brightness = 0.3
+led[0] = (0,0,255)
+
+button = digitalio.DigitalInOut(board.D2)
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP
+button_state = None
+menu = ["stop","caution","go"]
+last_index = None
+menu_index = 0
+
+
+while True:
+    if not button.value and button_state is None:
+        button_state = "pressed"
+    if button.value and button_state == "pressed":
+        print("button sa pressed") 
+        led[0] = (255,255,255)
+        button_state = None
+
+
+    menu_index = enc.position
+    if last_index == None or menu_index != last_index :
+        print(menu_index)
+    last_index = menu_index
+
+    if menu_index_lcd == 0:
+        led[0] = (255,0,0)
+    if menu_index_lcd == 1:
+        led[0] = (255,255,0)
+    if menu_index_lcd == 2:
+        led[0] = (0,255,0)
+
+
+
+
+while True:
+    pass
