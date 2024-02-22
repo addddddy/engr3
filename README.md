@@ -229,7 +229,18 @@ in this project, we were supplied with parts premade in CAD. We then added the p
 ![Assembly 1 (6)](https://github.com/addddddy/engr3/assets/143544940/27c82558-438e-4c59-a6da-8a8cd0f833a4)
 ### Reflection
 In this assignment, I learned many new ways to make my CAD more efficient, such as the drop-down menu in a mate's details to change the type of mate super easily. This ended up being super useful in the actual Onshape certification. 
+---
+## Rotary_Encoder_+_LCD
+### Description & Code Snippets
 
+
+**Lastly, please end this section with a link to your code or file.**  
+
+### Evidence
+
+### Wiring
+
+### Reflection
 
 ```
 ## NextAssignment
