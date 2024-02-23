@@ -232,7 +232,7 @@ In this assignment, I learned many new ways to make my CAD more efficient, such 
 ---
 ## Rotary_Encoder_+_LCD
 ### Description & Code Snippets
-
+/
 
 [link to project](https://cvilleschools.onshape.com/documents/8e6d0b85edf5274aaaffec86/w/37e8dd25a2b712f4ed4170ce/e/763f08f83a24a90f51864018?renderMode=0&uiState=65d8fd02a868202635294c67)
 
