@@ -9,10 +9,10 @@
 * [Photointerrupter](#Photointerrupter)
 * [Hanger](#The_Hanger)
 * [Swing Arm](#The_Swing_Arm)
-* [Multi-Part Cylinder](Multiple_Part_Cylinder)
-* [Single Part Practice](Single_Part_Practice)
-* [Rotary_Encoder_+_LCD](Rotary_Encoder_+_LCD)
-* [Robot_Arm](Robot_Arm) 
+* [Multi-Part Cylinder](#Multiple_Part_Cylinder)
+* [Single Part Practice](#Single_Part_Practice)
+* [Rotary_Encoder_+_LCD](#Rotary_Encoder_+_LCD)
+* [Robot_Arm](#Robot_Arm) 
 ---
 ## Hello_CircuitPython
 ### Description & Code Snippets
