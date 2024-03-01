@@ -244,15 +244,15 @@ In this assignment, I learned many new ways to make my CAD more efficient, such 
 
 ## Robot_Arm
 ### Description & Code Snippets
+This is a "robot gripper"; a scissor-like arm that is controlled by only one point of force. It was designed and proved in Onshape.
 
-
-**Lastly, please end this section with a link to your code or file.**  
+[link to project](https://cvilleschools.onshape.com/documents/8e6d0b85edf5274aaaffec86/w/37e8dd25a2b712f4ed4170ce/e/763f08f83a24a90f51864018?bomType=flattened&renderMode=0&rightPanel=BOMPanel&uiState=65e2392448d09c112d8a3805)
 
 ### Evidence
 https://ezgif.com/save/ezgif-7-69fae01806.webm
-### Wiring
-
+![bomb](https://github.com/addddddy/engr3/assets/143544940/edfde3e1-20ba-4127-a664-f25ff4bf849c)
 ### Reflection
+This project was easy to make in a part studio, but difficult to assemble. I initially made all the parts other than the screw in one part studio, then just inserted the whole part studio and mated everything together. However, I realized later, as I was making the BOM table, that I should have had just a few parts copied over and over instead of a bunch of identical parts. I went back and fixed it. I also learned about animating, and how to make my own customizable screws.
 ```
 ## NextAssignment
 ### Description & Code Snippets
