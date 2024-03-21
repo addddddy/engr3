@@ -130,11 +130,7 @@ This assignment had much fewer lines of code then I first thought. I spend a whi
 ---
 ## Photointerrupter
 ### Description & Code Snippets
-Write a couple sentences here, describing this assignment, and make sure that you hit these two points:
-* What was the goal of the assignment?
-* How did you accomplish that goal?
-  How you accomplished the goal is NOT a reflection, it is you telling the reader how to do this assignment, in broad strokes.
-  Your description is the right place to draw the reader's attention to any important chunks of code. Here's how you make code look like code:
+this project used a photointerrupter to count how many times it is interrupted, or pressed, or whatever you want to call it.
 ```python
 import time
 import board, digitalio
@@ -157,7 +153,8 @@ while True:
 ### Wiring
 
 ### Reflection
-this assignment was challenging because neither I nor my partner could agree on how to start the code. We both wanted to do different  things, but we  started with how he wanted because I'm a girl and my opinion doesn't  matter. After  searching for usable code, we found  some that looked promising. However, when we tried to get it running, it didn't want to work at all. We ended up taking bits of code off of a friend, then modifying and adding things till it worked. In the end, it  looked almost exactly like how I had originally wanted to write the code. No surprise, it's because I'm always right. 
+
+this assignment was challenging because neither I nor my partner could agree on how to start the code. We both wanted to do different things, but we  started with how he wanted because I'm a girl and my opinion doesn't  matter. After  searching for usable code, we found  some that looked promising. However, when we tried to get it running, it didn't want to work at all. We ended up taking bits of code off of a friend, then modifying and adding things till it worked. In the end, it  looked almost exactly like how I had originally wanted to write the code. No surprise, I was right. 
 ---
 ## The_Hanger
 [link to project](https://cvilleschools.onshape.com/documents/61f1aed0d78915e678d46910/w/792ab1a12e13a85070412122/e/6652e67fcdeaa1051e02a925?renderMode=0&uiState=652ee01a7839ae11875abe2c)
