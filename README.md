@@ -232,13 +232,40 @@ In this assignment, I learned many new ways to make my CAD more efficient, such 
 ---
 ## Rotary_Encoder_+_LCD
 ### Description & Code Snippets
-
-[link to project](https://cvilleschools.onshape.com/documents/8e6d0b85edf5274aaaffec86/w/37e8dd25a2b712f4ed4170ce/e/763f08f83a24a90f51864018?renderMode=0&uiState=65d8fd02a868202635294c67)
-
+In this project, we made a traffic light with the traditional red, green and yellow lights, but also a screen that displayed either "caution","stop", or "go". This setup used a rotary encoder and an lcd.
+``` python
+while True:
+    if not button.value and button_state is None:
+        button_state = "pressed"
+    if button.value and button_state == "pressed":
+        print("button sa pressed") 
+        led[0] = (255,255,255)
+        button_state = None
+    menu_index = enc.position
+    menu_index_lcd = menu_index % 3
+    last_index = menu_index
+    print(menu[menu_index_lcd])
+    lcd.set_cursor_pos(0,0)
+    lcd.print("Push For: ")
+    lcd.set_cursor_pos(1,0)
+    lcd.print("          ")
+    lcd.set_cursor_pos(1,0)
+    lcd.print(menu[menu_index_lcd])
+    if menu_index_lcd == 0:
+        led[0] = (255,0,0)
+    if menu_index_lcd == 1:
+        led[0] = (255,255,0)
+    if menu_index_lcd == 2:
+        led[0] = (0,255,0)
+```
 ### Evidence
+![WIN_20240125_15_41_34_Pro-ezgif com-cut](https://github.com/addddddy/engr3/assets/143544940/f65d3a34-e018-4211-bcf8-0faf92941e60)
 
 ### Wiring
-[arm_Assembly1-ezgif.com-video-speed.webm](https://github.com/addddddy/engr3/assets/143544940/ae7a8f6d-30a2-47a4-92c5-4b48b36012c4)
+![wiring lcd](https://github.com/addddddy/engr3/assets/143544940/10d4137b-a189-4c32-b8ba-c6ae330cb443)
+![wiring rotary](https://github.com/addddddy/engr3/assets/143544940/8803b7f4-7364-4022-9821-64ac3d80b560)
+ps i was lazy so just combo these two together and thats what my wiring looked like
+
 ### Reflection
 ---
 
