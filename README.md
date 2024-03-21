@@ -2,7 +2,7 @@
  [ directory of all students!](https://github.com/chssigma/Class_Accounts)
 ## Table_of_Contents
 * [Table of Contents](#TableOfContents)
-* [Hello_CircuitPython](#Hello_CircuitPython)
+* [Hello CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [Distance Sensor](#Distance_Sensor)
 * [Motor Control](#Motor_Control)
@@ -11,7 +11,7 @@
 * [Swing Arm](#The_Swing_Arm)
 * [Multi-Part Cylinder](#Multiple_Part_Cylinder)
 * [Single Part Practice](#Single_Part_Practice)
-* [Rotary Encoder_+_LCD](#Rotary_Encoder_+_LCD)
+* [Rotary Encoder + LCD](#Rotary_Encoder_+_LCD)
 * [Robot Arm](#Robot_Arm) 
 ---
 ## Hello_CircuitPython
