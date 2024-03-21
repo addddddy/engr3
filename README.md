@@ -262,11 +262,14 @@ while True:
 ![WIN_20240125_15_41_34_Pro-ezgif com-cut](https://github.com/addddddy/engr3/assets/143544940/f65d3a34-e018-4211-bcf8-0faf92941e60)
 
 ### Wiring
-![wiring lcd](https://github.com/addddddy/engr3/assets/143544940/10d4137b-a189-4c32-b8ba-c6ae330cb443)
+![wiring lcd](https://github.com/addddddy/engr3/assets/143544940/10d4137b-a189-4c32-b8ba-c6ae330cb443) 
+
 ![wiring rotary](https://github.com/addddddy/engr3/assets/143544940/8803b7f4-7364-4022-9821-64ac3d80b560)
+
 ps i was lazy so just combo these two together and thats what my wiring looked like
 
 ### Reflection
+this was a massive fail because i had to try so many things and eventually realized i was missing some libraries and stuff. Make sure you have all the libraries you need before starting.
 ---
 
 ## Robot_Arm
