@@ -255,6 +255,7 @@ while True:
     if menu_index_lcd == 2:
         led[0] = (0,255,0)
 ```
+[link to code](https://github.com/addddddy/engr3/blob/50ca6fc814df42de53028b688262830ef248314d/rotaryencoder)
 ### Evidence
 ![WIN_20240125_15_41_34_Pro-ezgif com-cut](https://github.com/addddddy/engr3/assets/143544940/f65d3a34-e018-4211-bcf8-0faf92941e60)
 
