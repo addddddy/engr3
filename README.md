@@ -269,6 +269,18 @@ ps i was lazy so just combo these two together and thats what my wiring looked l
 ### Reflection
 this was a massive fail because i had to try so many things and eventually realized i was missing some libraries and stuff. Make sure you have all the libraries you need before starting.
 ---
+## IR_Sensors
+### Description & Code Snippets
+
+
+**Lastly, please end this section with a link to your code or file.**  
+
+### Evidence
+
+### Wiring
+
+### Reflection
+---
 
 ## Robot_Arm
 ### Description & Code Snippets
