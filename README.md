@@ -267,9 +267,36 @@ this was a massive fail because I had to try so many things and eventually reali
 ---
 ## IR_Sensors
 ### Description & Code Snippets
+this project uses an infrared sensor, also kniown as an IR sensor, to sense when things are near by measuring how long it takes for the infrared signal to bounce off the object and return. 
+the onboard circuitpython LED goes red when an object is close, and green when the way is clear.
+```python
 
+# Set up the IR Sensor using digital pin2.
+ir_sensor = digitalio.DigitalInOut(board.D2)
 
-**Lastly, please end this section with a link to your code or file.**  
+# Set the photointerupter as an input.
+ir_sensor.direction = digitalio.Direction.INPUT
+
+# use the internal pull-up resistor.
+ir_sensor.pull = digitalio.Pull.UP
+
+#while loop runs the inside continuously.
+
+while True:
+
+   if (sensor is LOW):
+       println("low")
+       led[0,255,0]
+   if (sensor is HIGH):
+       println("HIGH")
+       led[255,0,0]
+
+   #Intialize the on-board neopixel and set the brightness.
+   led = neopixel.NeoPixel(board.NEOPIXEL, 1 )
+   Led.brightness = 0.3
+   
+```
+
 
 ### Evidence
 
