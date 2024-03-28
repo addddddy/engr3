@@ -299,6 +299,7 @@ while True:
 
 
 ### Evidence
+![some sdensor thing](https://github.com/addddddy/engr3/assets/143544940/24f8244d-f6d4-4785-b7dd-e29b0dc88f4c)
 
 ### Wiring
 
