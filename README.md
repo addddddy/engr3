@@ -305,7 +305,62 @@ while True:
 
 ### Reflection
 ---
+## Stepper Motor/Limit Switch
 
+### Assignment Description
+this motor turns until it hits a switch, where it changes direction and spins the other way. It uses an H-bridge, a stepper motor, and a limit switch.
+
+### Wiring Diagram
+![Steppermotor](https://github.com/lwylie10/engr3/assets/143749987/1ba4b071-90d4-47b6-b201-07fdc24168c9)
+
+### Code
+```python
+DELAY = 0.01  
+STEPS = 100
+coils = (
+    digitalio.DigitalInOut(board.D9),   # A1
+    digitalio.DigitalInOut(board.D10),  # A2
+    digitalio.DigitalInOut(board.D11),  # B1
+    digitalio.DigitalInOut(board.D12),  # B2
+)
+
+for coil in coils:
+    coil.direction = digitalio.Direction.OUTPUT
+motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
+
+async def catch_pin_transitions(pin):
+    with keypad.Keys((pin,), value_when_pressed=False) as keys:
+        while True:
+            event = keys.events.get()
+            if event:
+                if event.pressed:
+                    print("Limit Switch was pressed.")
+                    for step in range(STEPS):
+                        motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+                        time.sleep(DELAY)
+                elif event.released:
+                    print("Limit Switch was released.")
+            await asyncio.sleep(0)
+
+async def run_motor():
+    while(True):
+        motor.onestep(style=stepper.DOUBLE)
+        time.sleep(DELAY)
+        await asyncio.sleep(0)
+
+async def main():
+    while(True):
+        interrupt_task = asyncio.create_task(catch_pin_transitions(board.D2))
+        motor_task = asyncio.create_task(run_motor())
+        await asyncio.gather(interrupt_task, motor_task)
+
+asyncio.run(main())
+```
+
+### Reflection
+
+This assignment was confusing because I think i somehow got it working without an h-bridge, but ended up popping one in anyways. I still dont understand what on earth an H-bridge does. I also was very confused and mainly ended up stealing code and everything I still dont really know what I was doing.
+---
 ## Robot_Arm
 ### Description & Code Snippets
 This is a "robot gripper"; a scissor-like arm that is controlled by only one point of force. It was designed and proved in Onshape.
