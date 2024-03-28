@@ -308,7 +308,7 @@ while True:
 ## Stepper Motor/Limit Switch
 
 ### Assignment Description
-this motor turns until it hits a switch, where it changes direction and spins the other way. It uses an H-bridge, a stepper motor, and a limit switch.
+this motor turns until it hits a switch, where it changes direction and spins the other way. It uses an H-bridge, a stepper motor, and a limit switch. when the switch is pressed, it reverses the direction of current to change the way is spins.
 
 ### Wiring Diagram
 ![Steppermotor](https://github.com/lwylie10/engr3/assets/143749987/1ba4b071-90d4-47b6-b201-07fdc24168c9)
